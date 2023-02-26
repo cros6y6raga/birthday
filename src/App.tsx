@@ -1,11 +1,13 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 import './App.scss'
+import 'animate.css';
 
 function App() {
     const onClickHandler = () => {
-        
+        alert('С ДР')
     }
+
     return (
         <>
             <div className="App">
